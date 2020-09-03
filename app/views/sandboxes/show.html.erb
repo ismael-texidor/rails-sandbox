@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Sand grains:</strong>
+  <%= @sandbox.sand_grains %>
+</p>
+
+<p>
+  <strong>Box name:</strong>
+  <%= @sandbox.box_name %>
+</p>
+
+<%= link_to 'Edit', edit_sandbox_path(@sandbox) %> |
+<%= link_to 'Back', sandboxes_path %>
