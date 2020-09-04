@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Just a little playground so I can familiarize myself with Rails 6.
 
-Things you may want to cover:
+* Ruby version: 2.6.3
 
-* Ruby version
+* System dependencies: Please isntall Webpacker, NodeJS, Rails, Yarn and sqlite3 to run this application. 
 
-* System dependencies
+* Install the following using the rails command: 
+rails webpacker:install:reactrails 
+generate react:install
 
-* Configuration
+* How to run the test suite: rspec spec or rspec spec --format documentation
 
-* Database creation
+* How do I run this application? rails s
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
